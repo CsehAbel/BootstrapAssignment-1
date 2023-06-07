@@ -1,0 +1,77 @@
+/* body  *{
+    border: 1px solid red;
+} */
+
+/*
+style the bootstrap navbar
+*/
+nav{
+    background-color: azure;
+    border-radius: 0;
+    border: 0;
+    box-shadow: 0 0 0;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+nav img{
+    width: 2em;
+    height: auto;
+}
+
+.navbar-toggler-icon {
+    height: 2px;
+    width: 18px;
+}
+
+.navbar-toggler-icon {
+    position: relative;
+  }
+  
+.navbar-toggler-icon::before,
+.navbar-toggler-icon::after {
+    position: absolute;
+}
+
+.navbar-toggler-icon::before {
+    display: block;
+    content: '';
+    height: 2px;
+    width: 18px;
+    background-color: #333;
+    top: -6px;
+}
+
+.navbar-toggler-icon {
+    height: 2px;
+    width: 18px;
+    background-color: #333;
+}
+
+.navbar-toggler-icon::after {
+    display: block;
+    content: '';
+    height: 2px;
+    width: 18px;
+    background-color: #333;
+    bottom: -6px;
+}
+
+.container.py-3{
+    display: flex;
+    flex-direction: row;
+    font-size: 0.5em;
+    /* justify content vertically centered */
+    align-items: center;
+}
+
+.container.py-4{
+    max-width: 1280px;
+}
+
+/* remove padding,margin from element */
+.container.py-3 > *{
+    padding: 0;
+    margin: 0;
+    margin-left: 1em;
+}
